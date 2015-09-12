@@ -1,0 +1,4 @@
+export JRE_HOME=/opt/jre
+export CLASSPATH=.:$JRE_HOME/lib
+
+export PATH=$PATH:$JRE_HOME/bin
