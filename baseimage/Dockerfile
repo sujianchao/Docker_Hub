@@ -12,6 +12,6 @@ ADD sources.list /etc/apt/
 #upgrade
 RUN apt-get update && apt-get upgrade -y
 
-LABEL sources="aliyun"
+LABEL sources="mirrors.163.com"
 
 CMD ["/bin/bash"]
