@@ -15,3 +15,5 @@ RUN apt-get update && apt-get upgrade -y
 LABEL sources="mirrors.163.com"
 
 CMD ["/bin/bash"]
+
+EXPOSE 22
