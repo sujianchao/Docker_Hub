@@ -1,7 +1,7 @@
 #base iamge using aliyun source lists
 
 FROM ubuntu:14.04
-MAINTAINER Adolphlwq <kenan3015@gmail.com>
+MAINTAINER SuJianchao <sujianchao@gmail.com>
 
 #backup old sources.list
 RUN cd /etc/apt/ && mv sources.list sources.lists_backup
